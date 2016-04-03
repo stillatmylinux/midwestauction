@@ -24,7 +24,7 @@
         <allow-intent href="itms-apps:*" />
     </platform>
 
-    <gap:plugin name="cordova-plugin-statusbar" source="npm" />
+    <plugin name="cordova-plugin-statusbar" source="npm" />
     <preference name="StatusBarOverlaysWebView" value="false" />
     <preference name="StatusBarBackgroundColor" value="#FFFFFF" />
     <preference name="StatusBarStyle" value="lightcontent" />
