@@ -7,6 +7,7 @@
     <author email="matt@thiessen.us" href="http://matt.thiessen.us/">
         Matt Thiessen
     </author>
+    <plugin name="ionic-plugin-keyboard" source="npm" />
     <plugin name="cordova-plugin-statusbar" source="npm" />
     <preference name="StatusBarOverlaysWebView" value="false" />
     <preference name="StatusBarBackgroundColor" value="#000000" />
