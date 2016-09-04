@@ -27,6 +27,8 @@ var app = {
     // 'load', 'deviceready', 'offline', and 'online'.
     bindEvents: function() {
         document.addEventListener('deviceready', this.onDeviceReady, false);
+
+        document.addEventListener('message', this.message, false);
     },
     // deviceready Event Handler
     //
@@ -45,7 +47,15 @@ var app = {
         receivedElement.setAttribute('style', 'display:block;');
 
         console.log('Received Event: ' + id);
-    }
+    },
+    message: function(e) {
+        console.debug(e, e.data);
+        if(e.data && typeof e.data == 'object') {
+            console.log('object',e.data);
+        } else {
+            console.log(typeof e.data);
+        }
+    },
 };
 
 app.initialize();
