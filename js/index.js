@@ -49,11 +49,9 @@ var app = {
         console.log('Received Event: ' + id);
     },
     message: function(e) {
-        console.debug(e, e.data);
         if(e.data && e.data.auction && e.data.auction.url) {
             window.open(e.data.auction.url, '_blank');
         }
-        
     },
 };
 
