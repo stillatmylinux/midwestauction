@@ -28,7 +28,7 @@ var app = {
     bindEvents: function() {
         document.addEventListener('deviceready', this.onDeviceReady, false);
 
-        document.addEventListener('message', this.message, false);
+        window.addEventListener('message', this.message, false);
     },
     // deviceready Event Handler
     //
