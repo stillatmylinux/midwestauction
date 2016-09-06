@@ -51,6 +51,8 @@ var app = {
     message: function(e) {
         if(e.data && e.data.auction && e.data.auction.url) {
             window.open(e.data.auction.url, '_blank');
+        } else if(e.data && e.data == 'device') {
+            document.getElementById('mwaapp').contentWindow.postMessage({device:device.platform}, 'http://m.midwestauction.com');
         }
     },
 };
