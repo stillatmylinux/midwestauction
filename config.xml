@@ -7,10 +7,10 @@
         version   = "1.0.0">
 
     <!-- Change app id (above), name, description, and author. App ID can be any reverse domain name, such as com.mycompany.app -->
-    <name>Midwestauction</name>
+    <name>Midwestauction.com</name>
 
     <description>
-        Auctions in the midwest.
+        Auctions in the midwest.  Many auctions posted daily in the Midwest area of the United States and Canada.
     </description>
 
     <author href="http://matt.thiessen.us/" email="matt@thiessen.us">
@@ -37,6 +37,7 @@
     <plugin name="cordova-plugin-whitelist" version="1" />
     <plugin name="cordova-plugin-inappbrowser" source="npm" spec="1.4.0" />
     <plugin name="cordova-plugin-device" source="npm" spec="1.1.2" />
+    <gap:plugin name="cordova-plugin-splashscreen" source="npm" spec="3.2.2" />
 
     <!-- to show app faster, set autohide to true. iOS only -->
     <preference name="AutoHideSplashScreen" value="false" />
