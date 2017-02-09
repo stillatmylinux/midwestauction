@@ -7,7 +7,7 @@
         version   = "1.0.0">
 
     <!-- Change app id (above), name, description, and author. App ID can be any reverse domain name, such as com.mycompany.app -->
-    <name>Midwestauction.com</name>
+    <name>midwestauction.com</name>
 
     <description>
         Auctions in the midwest.  Many auctions posted daily in the Midwest area of the United States and Canada.
