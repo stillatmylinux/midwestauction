@@ -4,7 +4,7 @@
 <widget xmlns     = "http://www.w3.org/ns/widgets"
         xmlns:gap = "http://phonegap.com/ns/1.0"
         id        = "com.midwestauction.m"
-        version   = "1.0.0">
+        version   = "1.0.1">
 
     <!-- Change app id (above), name, description, and author. App ID can be any reverse domain name, such as com.mycompany.app -->
     <name>midwestauction.com</name>
@@ -22,7 +22,7 @@
     <preference name="phonegap-version" value="cli-6.5.0" />
     <preference name="android-minSdkVersion" value="14" /><!-- Android 4.0 is minimum supported -->
 
-    <gap:config-file platform="ios" parent="CFBundleShortVersionString"><string>1.0.0</string></gap:config-file>
+    <gap:config-file platform="ios" parent="CFBundleShortVersionString"><string>1.0.1</string></gap:config-file>
 
     <!-- You can comment out features you aren't using -->
     <gap:plugin name="cordova-plugin-statusbar" source="npm" spec="2.1.3" />
