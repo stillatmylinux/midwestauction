@@ -11,7 +11,7 @@
                 * Enable inline JS: add 'unsafe-inline' to default-src
         -->
         <meta http-equiv="Content-Security-Policy"
-          content="default-src *;
+          content="default-src * blob: 'self' gap: wss: ws: ;
                script-src 'self' 'unsafe-inline' 'unsafe-eval'
                            127.0.0.1:*
                            http://*.google.com
@@ -24,7 +24,7 @@
                            https://*.firebaseio.com
                            http://*.midwestauction.com
                            ;
-               style-src  'self' 'unsafe-inline'
+               style-src  style-src * 'self' 'unsafe-inline' 'unsafe-eval'
                           127.0.0.1
                            http://*.google.com
                            http://*.gstatic.com
